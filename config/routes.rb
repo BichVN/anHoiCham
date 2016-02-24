@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'auth#new'
+  root 'auths#new'
   get 'signup'  => 'users#new'
   get    'login'   => 'auths#new'
   post   'login'   => 'auths#create'
